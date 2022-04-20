@@ -23,7 +23,18 @@ print(division)
 
 incremento += 1 #incremento = incremento + 1 -> 1
 incremento += 2 #incremento = incremento + 2 -> 3
+incremento = 5
 print("El incremento es:")
 print(incremento)
 
 #Operadores lógicos
+operando3 = True
+operando4 = False
+
+compuerta_and = operando3 and operando4
+print("El resultado de la AND es:")
+print(compuerta_and)
+
+negando = not operando3
+print("Esto es una negación:")
+print(negando)
